@@ -1,18 +1,29 @@
-## Getting Started
+This Java-based desktop application facilitates public fund collection for charity and wellbeing. It includes key functionalities like user authentication, donation tracking, and charity event management. Using MySQL as the database backend, it allows users to manage their contributions and view donation-related insights through an intuitive dashboard. The project is developed with a clean MVC architecture.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Key Features:
 
-## Folder Structure
+Dashboard:
 
-The workspace contains two folders by default, where:
+Overview of total donations, active charity events, and user-specific contribution summaries.
+Deposit Details:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Displays all fund deposits with transaction history.
+Donate Now:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Allows donors to contribute funds for specific events.
+Donation Details:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Detailed records of all donations, categorized by events and users.
+Login:
 
-## Dependency Management
+Secure authentication for users and administrators.
+New Donor:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Feature to register new donors and add them to the system.
+Signup:
+
+Enables new users to create an account with roles (donor/admin).
+View Info:
+
+Provides detailed information about charity events, beneficiaries, and fund utilization.
+
